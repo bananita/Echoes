@@ -1,0 +1,107 @@
+[
+  {
+    "request" : {
+      "url" : "http:\/\/localhost:3000\/api\/v1\/token?api_key=f61081511557c5745ccef63574388874",
+      "method" : "GET",
+      "headers" : {
+        "Authorization" : "Basic dXNlcjE6cGFzc3dvcmQx"
+      }
+    },
+    "response" : {
+      "headers" : {
+        "X-Content-Type-Options" : "nosniff",
+        "Content-Type" : "application\/json; charset=utf-8",
+        "Server" : "WEBrick\/1.3.1 (Ruby\/2.1.5\/2014-11-13)",
+        "Connection" : "Keep-Alive",
+        "Date" : "Thu, 04 Jun 2015 14:28:44 GMT",
+        "X-Frame-Options" : "SAMEORIGIN",
+        "X-Xss-Protection" : "1; mode=block",
+        "X-Request-Id" : "37b85baa-7daa-4566-8c0c-1f7638bc40dd",
+        "X-Runtime" : "0.003208",
+        "Cache-Control" : "no-cache",
+        "Content-Length" : "33"
+      },
+      "statusCode" : 401,
+      "body" : "{\"error\":\"1\"}"
+    }
+  },
+  {
+    "request" : {
+      "url" : "http:\/\/localhost:3000\/api\/v1\/token?api_key=f61081511557c5745ccef63574388874",
+      "method" : "GET",
+      "headers" : {
+        "Authorization" : "Basic dXNlcjE6cGFzc3dvcmQx"
+      }
+    },
+    "response" : {
+      "headers" : {
+        "X-Content-Type-Options" : "nosniff",
+        "Content-Type" : "application\/json; charset=utf-8",
+        "Server" : "WEBrick\/1.3.1 (Ruby\/2.1.5\/2014-11-13)",
+        "Connection" : "Keep-Alive",
+        "Date" : "Thu, 04 Jun 2015 14:28:44 GMT",
+        "X-Frame-Options" : "SAMEORIGIN",
+        "X-Xss-Protection" : "1; mode=block",
+        "X-Request-Id" : "2d32f639-fe24-4370-9793-4cc7c90c3c2b",
+        "X-Runtime" : "0.003217",
+        "Cache-Control" : "no-cache",
+        "Content-Length" : "33"
+      },
+      "statusCode" : 401,
+      "body" : "{\"error\":\"4\"}"
+    }
+  },
+  {
+    "request" : {
+      "url" : "http:\/\/localhost:3000\/api\/v1\/token?api_key=f61081511557c5745ccef63574388874",
+      "method" : "GET",
+      "headers" : {
+        "Authorization" : "Basic dXNlcjE6cGFzc3dvcmQx"
+      }
+    },
+    "response" : {
+      "headers" : {
+        "X-Content-Type-Options" : "nosniff",
+        "Content-Type" : "application\/json; charset=utf-8",
+        "Server" : "WEBrick\/1.3.1 (Ruby\/2.1.5\/2014-11-13)",
+        "Connection" : "Keep-Alive",
+        "Date" : "Thu, 04 Jun 2015 14:28:44 GMT",
+        "X-Frame-Options" : "SAMEORIGIN",
+        "X-Xss-Protection" : "1; mode=block",
+        "X-Request-Id" : "d03bfd96-efb0-4237-88c5-e5d67794de70",
+        "X-Runtime" : "0.002938",
+        "Cache-Control" : "no-cache",
+        "Content-Length" : "33"
+      },
+      "statusCode" : 401,
+      "body" : "{\"error\":\"3\"}"
+    }
+  },
+  {
+    "request" : {
+      "url" : "http:\/\/localhost:3000\/api\/v1\/token?api_key=f61081511557c5745ccef63574388874",
+      "method" : "GET",
+      "headers" : {
+        "Authorization" : "Basic dXNlcjE6cGFzc3dvcmQ="
+      }
+    },
+    "response" : {
+      "headers" : {
+        "Content-Type" : "application\/json; charset=utf-8",
+        "X-Runtime" : "0.010431",
+        "X-Xss-Protection" : "1; mode=block",
+        "Server" : "WEBrick\/1.3.1 (Ruby\/2.1.5\/2014-11-13)",
+        "Cache-Control" : "max-age=0, private, must-revalidate",
+        "Date" : "Thu, 04 Jun 2015 14:28:44 GMT",
+        "X-Request-Id" : "4c3d8575-cb47-4f18-9841-af4b86643df5",
+        "Content-Length" : "44",
+        "Connection" : "Keep-Alive",
+        "X-Content-Type-Options" : "nosniff",
+        "Etag" : "W\/\"a375394eed34461866273f84d61442e0\"",
+        "X-Frame-Options" : "SAMEORIGIN"
+      },
+      "statusCode" : 200,
+      "body" : "{\"token\":\"5c4bf5e0fc9ea31a5a575cdb95c5e4c4\"}"
+    }
+  }
+]

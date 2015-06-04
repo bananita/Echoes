@@ -14,6 +14,12 @@
 		F5881BB81B2049270080AD62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5881BB71B2049270080AD62 /* Images.xcassets */; };
 		F5881BBB1B2049270080AD62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5881BB91B2049270080AD62 /* LaunchScreen.xib */; };
 		F5881BC71B2049270080AD62 /* EchoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BC61B2049270080AD62 /* EchoesTests.m */; };
+		F5881BD21B204B6A0080AD62 /* MBERecordingProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BD11B204B6A0080AD62 /* MBERecordingProtocol.m */; };
+		F5881BD51B204BBF0080AD62 /* Echoes.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BD41B204BBF0080AD62 /* Echoes.m */; };
+		F5881BDB1B205BC60080AD62 /* MBERecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BDA1B205BC60080AD62 /* MBERecord.m */; };
+		F5881BDE1B205BEE0080AD62 /* MBERequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BDD1B205BEE0080AD62 /* MBERequest.m */; };
+		F5881BE11B205CDA0080AD62 /* MBECurrentRecordingSetProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BE01B205CDA0080AD62 /* MBECurrentRecordingSetProvider.m */; };
+		F5881BE41B2085AA0080AD62 /* MBEReplayingProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F5881BE31B2085AA0080AD62 /* MBEReplayingProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		F5881BC01B2049270080AD62 /* EchoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5881BC51B2049270080AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5881BC61B2049270080AD62 /* EchoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EchoesTests.m; sourceTree = "<group>"; };
+		F5881BD01B204B6A0080AD62 /* MBERecordingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBERecordingProtocol.h; sourceTree = "<group>"; };
+		F5881BD11B204B6A0080AD62 /* MBERecordingProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBERecordingProtocol.m; sourceTree = "<group>"; };
+		F5881BD31B204BBF0080AD62 /* Echoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Echoes.h; sourceTree = "<group>"; };
+		F5881BD41B204BBF0080AD62 /* Echoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Echoes.m; sourceTree = "<group>"; };
+		F5881BD91B205BC60080AD62 /* MBERecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBERecord.h; sourceTree = "<group>"; };
+		F5881BDA1B205BC60080AD62 /* MBERecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBERecord.m; sourceTree = "<group>"; };
+		F5881BDC1B205BEE0080AD62 /* MBERequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBERequest.h; sourceTree = "<group>"; };
+		F5881BDD1B205BEE0080AD62 /* MBERequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBERequest.m; sourceTree = "<group>"; };
+		F5881BDF1B205CDA0080AD62 /* MBECurrentRecordingSetProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBECurrentRecordingSetProvider.h; sourceTree = "<group>"; };
+		F5881BE01B205CDA0080AD62 /* MBECurrentRecordingSetProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBECurrentRecordingSetProvider.m; sourceTree = "<group>"; };
+		F5881BE21B2085AA0080AD62 /* MBEReplayingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBEReplayingProtocol.h; sourceTree = "<group>"; };
+		F5881BE31B2085AA0080AD62 /* MBEReplayingProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBEReplayingProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +107,18 @@
 				F5881BB71B2049270080AD62 /* Images.xcassets */,
 				F5881BB91B2049270080AD62 /* LaunchScreen.xib */,
 				F5881BAA1B2049270080AD62 /* Supporting Files */,
+				F5881BD01B204B6A0080AD62 /* MBERecordingProtocol.h */,
+				F5881BD11B204B6A0080AD62 /* MBERecordingProtocol.m */,
+				F5881BD31B204BBF0080AD62 /* Echoes.h */,
+				F5881BD41B204BBF0080AD62 /* Echoes.m */,
+				F5881BD91B205BC60080AD62 /* MBERecord.h */,
+				F5881BDA1B205BC60080AD62 /* MBERecord.m */,
+				F5881BDC1B205BEE0080AD62 /* MBERequest.h */,
+				F5881BDD1B205BEE0080AD62 /* MBERequest.m */,
+				F5881BDF1B205CDA0080AD62 /* MBECurrentRecordingSetProvider.h */,
+				F5881BE01B205CDA0080AD62 /* MBECurrentRecordingSetProvider.m */,
+				F5881BE21B2085AA0080AD62 /* MBEReplayingProtocol.h */,
+				F5881BE31B2085AA0080AD62 /* MBEReplayingProtocol.m */,
 			);
 			path = Echoes;
 			sourceTree = "<group>";
@@ -219,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5881BE11B205CDA0080AD62 /* MBECurrentRecordingSetProvider.m in Sources */,
+				F5881BD21B204B6A0080AD62 /* MBERecordingProtocol.m in Sources */,
 				F5881BB31B2049270080AD62 /* ViewController.m in Sources */,
+				F5881BD51B204BBF0080AD62 /* Echoes.m in Sources */,
+				F5881BE41B2085AA0080AD62 /* MBEReplayingProtocol.m in Sources */,
 				F5881BB01B2049270080AD62 /* AppDelegate.m in Sources */,
+				F5881BDE1B205BEE0080AD62 /* MBERequest.m in Sources */,
+				F5881BDB1B205BC60080AD62 /* MBERecord.m in Sources */,
 				F5881BAD1B2049270080AD62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +383,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"ECHOES_RECORDINGS_DIRECTORY=\"\\\"$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages\\\"\"",
+				);
 				INFOPLIST_FILE = Echoes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
