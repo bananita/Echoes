@@ -9,6 +9,9 @@
 #import "MBECurrentRecordingSetProvider.h"
 #import "Echoes.h"
 
+#ifndef ECHOES_RECORDINGS_DIRECTORY
+#define ECHOES_RECORDINGS_DIRECTORY ""
+#endif
 
 @interface Elements : NSObject
 @property NSUInteger currentIndex;
