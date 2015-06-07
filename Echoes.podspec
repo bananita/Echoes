@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	      s.name     = 'Echoes'
-	      s.version  = '0.0.2'
+	      s.version  = '0.0.3'
 	      s.platform = :ios, '5.0'
 	      s.platform = :osx, '10.7'
 	      s.license  = 'MIT'
