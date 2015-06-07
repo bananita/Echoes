@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 	      s.name     = 'Echoes'
-	      s.version  = '0.0.3'
+	      s.version  = '0.0.4'
 	      s.platform = :ios, '5.0'
-	      s.platform = :osx, '10.7'
+
 	      s.license  = 'MIT'
 	      s.summary  = 'Echoes.'
 	      s.homepage = 'https://github.com/bananita/Echoes'
