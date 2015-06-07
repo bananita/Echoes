@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
 
 	      s.description = 'EChoes.'
 
-	      s.source_files = 'Echoes/	*.{h,m,c}'
+	      s.source_files = 'Echoes/Echoes/*.{h,m,c}'
 	      s.requires_arc = true
 end	
